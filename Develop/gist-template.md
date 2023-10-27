@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# An Explanation of Regular Expressions
 
-Introductory paragraph (replace this with your text)
+a regular expression or regex for short are a set of patterns used for manipulating and matching strings. it usualy consists of a mix of regular and specialcharecters that may look confusing at first but are very useful once mastered
 
 ## Summary
+one of the many types of regular expressions is a string that looks like this /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ which is used to matchand validate urls.
+it may look like giberish but once broken down it becomes a bit more clear on what regex can do
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 ## Table of Contents
 
@@ -21,9 +22,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
+ the regular expression /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/  can be boken down into its component parts 
 ### Anchors
-
+/<mark>^</mark>(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?<mark>$</mark>/
 ### Quantifiers
 
 ### OR Operator
